@@ -1,0 +1,124 @@
+.screenshots {
+  padding: 80px 0;
+  background: linear-gradient(180deg, #fff 0%, #fff5f0 100%);
+}
+
+.screenshots h2 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.screenshots-subtitle {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 60px;
+}
+
+.screenshots-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.screenshot-card {
+  text-align: center;
+  
+}
+
+.screenshot-placeholder {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.phone-mockup {
+  width: 280px;
+  height: 500px;
+  background: white;
+  border-radius: 40px;
+  padding: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mockup-content {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.mockup-content.orange {
+  background: linear-gradient(135deg, #ff8c5a 0%, #ff6b35 100%);
+}
+
+.mockup-content.blue {
+  background: linear-gradient(135deg, #5eb3f6 0%, #4a9fe5 100%);
+}
+
+.mockup-content.purple {
+  background: linear-gradient(135deg, #8b7ff5 0%, #6b5ce7 100%);
+}
+
+.mockup-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.mockup-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.mockup-value {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.mockup-label {
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.mockup-stats {
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.screenshot-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+@media (max-width: 768px) {
+  .screenshots {
+    padding: 60px 0;
+  }
+  
+  .screenshots h2 {
+    font-size: 32px;
+  }
+  
+  .screenshots-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,86 @@
+.download {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #ff6b35 0%, #ff8c5a 100%);
+  color: white;
+}
+
+.download-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.download-text {
+  flex: 1;
+}
+
+.download-text h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.download-text p {
+  font-size: 20px;
+  opacity: 0.95;
+}
+
+.store-button {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 16px 30px;
+  background: white;
+  color: #1a1a1a;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.store-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.store-icon {
+  font-size: 36px;
+}
+
+.store-text {
+  text-align: left;
+}
+
+.store-label {
+  font-size: 12px;
+  color: #666;
+}
+
+.store-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .download {
+    padding: 60px 0;
+  }
+  
+  .download-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .download-text h2 {
+    font-size: 32px;
+  }
+  
+  .download-text p {
+    font-size: 18px;
+  }
+  
+  .store-button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
